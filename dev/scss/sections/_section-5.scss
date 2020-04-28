@@ -12,10 +12,38 @@
         display: grid;
         gap:20px;
 
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            //grid grid-template-columns: 50% 50%;
+            //grid grid-template-columns: 50% auto;
+
+            grid-template-areas:
+            "g1 g3"
+            "g1 g7"
+            "g5 g6";
+        }
+
         li{
             img{
                 width: 100%;
             }
         }
+
+        #g1{
+            @includ md{
+                grid-areas: g1;
+            }
+        }
+        #g2{
+            @includ md{
+                grid-areas: g1;
+            }
+        }
+        #g3{
+            @includ md{
+                grid-areas: g1;
+            }
+        }
+
     }
 }
