@@ -7,6 +7,10 @@
     grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-5 .";
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     ul{
         grid-area: section-5;
         display: grid;
@@ -14,29 +18,65 @@
 
         @include md{
             grid-template-columns: repeat(2, 1fr);
-            //grid-template-columns: 50% 50%;
-            //grid-template-columns: 50% auto;
+            grid-template-columns: 50% 50%;
+            grid-template-columns: 50% auto;
 
             grid-template-areas:
-            "g1 g2"
+            "g1 g3"
             "g1 g7"
-            "g3 g6";
+            "g5 g6";
         }
 
         @include lg{
-            grid-template-columns: repeat(3, 2fr);
+            grid-template-columns: repeat(3, 1fr);
 
             grid-template-areas:
             "g1 g2 g3"
             "g1 g7 g4"
-            "g6 g5 g4";
+            "g5 g6 g4";
         }
 
         li{
             img{
                 width: 100%;
             }
-
         }
+
+        #g1{
+            @include md{
+                grid-area: g1;
+            }
+        }
+        #g2{
+            @include lg{
+                grid-area: g2;
+            }
+        }
+        #g3{
+            @include md{
+                grid-area: g3;
+            }
+        }
+        #g4{
+            @include lg{
+                grid-area: g4;
+            }
+        }
+        #g5{
+            @include md{
+                grid-area: g5;
+            }
+        }
+        #g6{
+            @include md{
+                grid-area: g6;
+            }
+        }
+        #g7{
+            @include md{
+                grid-area: g7;
+            }
+        }
+
     }
 }
