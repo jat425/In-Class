@@ -4,11 +4,99 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "D0BDF740-D988-46A9-9F33-51B0E43F7A22"
+		"uuidString": "9978CF9C-C9C1-4C7C-BC5C-CF83EB632B37"
 		}
 	],
 "creatorBuild": "32001",
 "files": {
+	"/Assets/shutterstock_286990526.jpg": {
+		"ft": 16384,
+		"iS": 16224438,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_286990526.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/shutterstock_287640212.jpg": {
+		"ft": 16384,
+		"iS": 6438108,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_287640212.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/shutterstock_287641082.jpg": {
+		"ft": 16384,
+		"iS": 18046221,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_287641082.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/shutterstock_333995528.jpg": {
+		"ft": 16384,
+		"iS": 14509118,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_333995528.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/shutterstock_667612975.jpg": {
+		"ft": 16384,
+		"iS": 18338295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_667612975.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/shutterstock_667612999.jpg": {
+		"ft": 16384,
+		"iS": 17606586,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_667612999.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/shutterstock_667616446.jpg": {
+		"ft": 16384,
+		"iS": 12406567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_667616446.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assets/shutterstock_687505582.jpg": {
+		"ft": 16384,
+		"iS": 18756177,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/shutterstock_687505582.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -28,17 +116,6 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
-		},
-	"/deploy/img/footer/instagram.png": {
-		"ft": 32768,
-		"iS": 498,
-		"oA": 0,
-		"oAP": "/deploy/img/footer/instagram.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/deploy/img/footer/instagram.svg": {
 		"ft": 2097152,
@@ -62,29 +139,18 @@
 		},
 	"/deploy/img/section-1/hero.jpg": {
 		"ft": 16384,
-		"iS": 169204,
+		"iS": 647060,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-1/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/deploy/img/section-2/hero.jpg": {
-		"ft": 16384,
-		"iS": 8307,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-2/hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/section-2/hero.png": {
 		"ft": 32768,
-		"iS": 21305,
+		"iS": 21385,
 		"oA": 0,
 		"oAP": "/deploy/img/section-2/hero.png",
 		"oF": 0,
@@ -93,31 +159,31 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/grid-bot.png": {
-		"ft": 32768,
-		"iS": 258812,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/grid-bot.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-4/Hero 2.jpg": {
+	"/deploy/img/section-3/grid-bot.jpg": {
 		"ft": 16384,
-		"iS": 112828,
+		"iS": 118987,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-4/Hero 2.jpg",
+		"oAP": "/deploy/img/section-3/grid-bot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/hero.jpg": {
+		"ft": 16384,
+		"iS": 189024,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/section-5/gallery-1.jpg": {
 		"ft": 16384,
-		"iS": 70885,
+		"iS": 173696,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/gallery-1.jpg",
@@ -128,7 +194,7 @@
 		},
 	"/deploy/img/section-5/gallery-2.jpg": {
 		"ft": 16384,
-		"iS": 25130,
+		"iS": 47796,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/gallery-2.jpg",
@@ -139,7 +205,7 @@
 		},
 	"/deploy/img/section-5/gallery-3.jpg": {
 		"ft": 16384,
-		"iS": 41368,
+		"iS": 100411,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/gallery-3.jpg",
@@ -150,7 +216,7 @@
 		},
 	"/deploy/img/section-5/gallery-4.jpg": {
 		"ft": 16384,
-		"iS": 73846,
+		"iS": 170027,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/gallery-4.jpg",
@@ -161,7 +227,7 @@
 		},
 	"/deploy/img/section-5/gallery-5.jpg": {
 		"ft": 16384,
-		"iS": 26651,
+		"iS": 70439,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/gallery-5.jpg",
@@ -172,24 +238,13 @@
 		},
 	"/deploy/img/section-5/gallery-6.jpg": {
 		"ft": 16384,
-		"iS": 44889,
+		"iS": 115782,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/gallery-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-5/gallery-7.png": {
-		"ft": 32768,
-		"iS": 6896,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-7.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {
@@ -233,7 +288,7 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/index.html",
-		"oF": 2
+		"oF": 3
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -385,7 +440,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -468,7 +523,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-2.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/dev/section-3.kit": {
 		"cB": 0,
@@ -519,10 +574,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 608760472.08380401,
+	"creationDate": 608760467.89261496,
 	"displayValue": "In-Class",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_teal",
+	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

@@ -1,82 +1,89 @@
 /* =============
     Section 5
 ============= */
-
-#section-5{
+#section-5 {
     display: grid;
+    grid-template-areas: '. section-5 .';
     grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". section-5 .";
 
-    @include xl{
+    @include xl {
         grid-template-columns: auto 1200px auto;
     }
 
-    ul{
-        grid-area: section-5;
+    ul {
         display: grid;
-        gap:20px;
+        gap: 20px;
+        grid-area: section-5;
+        grid-template-areas: "g7"
+            "g1"
+            "g1"
+            "g6"
+            "g3";
+        grid-template-rows: repeat(5, 324px);
 
-        @include md{
+        @include md {
+            // grid-template-columns: 50% auto;
+            grid-template-areas: "g1 g3"
+                "g1 g7"
+                "g5 g6";
             grid-template-columns: repeat(2, 1fr);
-            grid-template-columns: 50% 50%;
-            grid-template-columns: 50% auto;
-
-            grid-template-areas:
-            "g1 g3"
-            "g1 g7"
-            "g5 g6";
+            grid-template-rows: repeat(3, 277px);
         }
 
-        @include lg{
+        @include lg {
+            grid-template-areas: "g1 g2 g3"
+                "g1 g7 g4"
+                "g6 g5 g4";
             grid-template-columns: repeat(3, 1fr);
-
-            grid-template-areas:
-            "g1 g2 g3"
-            "g1 g7 g4"
-            "g5 g6 g4";
+            grid-template-rows: repeat(3, 250px);
         }
 
-        li{
-            img{
-                width: 100%;
-            }
+        li {
+            background-position: center;
+            background-size: cover;
         }
 
-        #g1{
-            @include md{
-                grid-area: g1;
-            }
+        #g1 {
+            background-image: url("../img/section-5/gallery-1.jpg");
+            grid-area: g1;
         }
-        #g2{
-            @include lg{
+
+        #g2 {
+            background-image: url("../img/section-5/gallery-2.jpg");
+
+            @include lg {
                 grid-area: g2;
             }
         }
-        #g3{
-            @include md{
-                grid-area: g3;
-            }
+
+        #g3 {
+            background-image: url("../img/section-5/gallery-3.jpg");
+            grid-area: g3;
         }
-        #g4{
-            @include lg{
+
+        #g4 {
+            background-image: url("../img/section-5/gallery-4.jpg");
+
+            @include lg {
                 grid-area: g4;
             }
         }
-        #g5{
-            @include md{
+
+        #g5 {
+            background-image: url("../img/section-5/gallery-5.jpg");
+
+            @include md {
                 grid-area: g5;
             }
         }
-        #g6{
-            @include md{
-                grid-area: g6;
-            }
-        }
-        #g7{
-            @include md{
-                grid-area: g7;
-            }
+
+        #g6 {
+            background-image: url("../img/section-5/gallery-6.jpg");
+            grid-area: g6;
         }
 
+        #g7 {
+            grid-area: g7;
+        }
     }
 }

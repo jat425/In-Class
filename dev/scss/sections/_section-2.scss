@@ -1,47 +1,97 @@
 /* =============
     Section 2
 ============= */
+#section-2 {
 
-#section-2{
-        display: grid;
-        grid-template-columns: 15px auto 15px;
-        grid-template-areas: ". section-2 .";
+    // margin: 60px;
+    
+    // margin: 60px 20px 100px;
+    // margin: 60px 20px 60px 20px;
 
-    @include xl{
+
+    // margin-top: 60px;
+    // margin-right: 60px;
+    // margin-bottom: 60px;
+    // margin-left: 60px;
+
+    border: 1px solid red;
+
+
+    display: grid;
+    grid-template-areas: ". section-2 .";
+    grid-template-columns: 15px auto 15px;
+
+    @include xl {
         grid-template-columns: auto 800px auto;
     }
 
-    #section-2-content{
+    #section-2-content {
         grid-area: section-2;
-    
-        #section-2-intro{
-            @include md{
-            display: grid;
-            grid-template-columns: 15% auto 15%;
-            grid-template-areas: ". section-2-intro .";
-        }
 
-            #section-2-intro-content{
-                @include md{
+        #section-2-intro {
+            @include md {
+                display: grid;
+                grid-template-areas: ". section-2-intro .";
+                grid-template-columns: 15% auto 15%;
+            }
+
+            #section-2-intro-content {
+                @include md {
                     grid-area: section-2-intro;
+                }
+
+                img{
+                
+                }
+
+                h1{
+                    margin: 50px 0 30px;
+                    color: $yellow;
+
+                    @include md{
+                        margin: 34px 0 33px;
+                    }
+
+                    @include lg{
+                        margin: 28px 0 36px;
+                    }
+                }
+
+                h3{
+
                 }
             }
         }
 
-        #section-2-date{
-            @include md{
-            display: grid;
-            grid-template-columns: 10% auto 10%;
-            grid-template-areas: ". section-2-date .";
+        #section-2-middle{
+            p{
+                margin-top: 24px;
+
+                @include md{
+                    margin-top: 34px;
+                }
+            }
+        }
+
+        #section-2-date {
+            margin-top: 35px;
+
+            @include md {
+                display: grid;
+                grid-template-areas: ". section-2-date .";
+                grid-template-columns: 10% auto 10%;
+                margin-top: 88px;
             }
 
-            #section-2-date-content{
-                @include md{
+            @include lg{
+                margin-top: 91px;
+            }
+
+            #section-2-date-content {
+                @include md {
                     grid-area: section-2-date;
                 }
             }
         }
-
-        
-     }
+    }
 }
